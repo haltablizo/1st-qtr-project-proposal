@@ -21,11 +21,12 @@ thought to make the best of it. :)
 -----------------------------------------------------------------------------
 
 Website outline: 
-Homepage - where all the other web pages are linked and the introduction.
+Homepage - where all the other web pages are linked, introduction about 
+the website, as well as what the other web pages are about.
 
 About - A brief introduction about myself and some contact information.
 
-Blog - The webpage that has my daily/weekly/monthly life updates.
+Blog - The webpage that has my daily/weekly/monthly/consistent life updates.
 
 Arts - My art portfolio and artists that i look up to and take inspiration. 
 
