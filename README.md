@@ -34,5 +34,3 @@ that i look up to and take inspiration.
 
 Gaming - Stuff game related with two subpages: My favorite indie/RPG games, 
 as well as my fave multiplayer games such as CODM, Tetr.io, Hordes.io, etc. 
-
-Total of 6 webpages excluding the homepage. :)
