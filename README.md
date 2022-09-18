@@ -21,6 +21,7 @@ thought to make the best of it. :)
 -----------------------------------------------------------------------------
 
 Website outline: 
+
 Homepage - where all the other web pages are linked, introduction about 
 the website, as well as what the other web pages are about.
 
@@ -28,7 +29,10 @@ About - A brief introduction about myself and some contact information.
 
 Blog - The webpage that has my daily/weekly/monthly/consistent life updates.
 
-Arts - My art portfolio and artists that i look up to and take inspiration. 
+Arts - Stuff art related with two subpages: My art portfolio and artists 
+that i look up to and take inspiration. 
 
-Gaming - My favorite indie/RPG games, as well as my progress in multiplayer 
-games such as CODM, Tetr.io, Hordes.io, etc. 
+Gaming - Stuff game related with two subpages: My favorite indie/RPG games, 
+as well as my fave multiplayer games such as CODM, Tetr.io, Hordes.io, etc. 
+
+Total of 6 webpages excluding the homepage. :)
