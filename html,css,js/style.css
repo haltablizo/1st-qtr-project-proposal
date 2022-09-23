@@ -1,29 +1,4 @@
-html {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 40px;
-  background-color: #f2efe3;
-  overflow: auto;
-}
-
-#top_div {
-  margin: 0px 0px 50px 0px;
-}
-
-#logo {
-  position:absolute;
-  left: 0px;
-}
-
-#img {
-  width: 100px; 
-  height: 60px;
-}
-
-#about {
-  border:1px solid black;
-  position:absolute;
-  right: 10px;
-  padding: 5px 30px;
-  margin: auto;
+html, body {
+  height: 100%;
+  width: 100%;
 }
