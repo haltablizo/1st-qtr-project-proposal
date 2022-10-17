@@ -1,0 +1,20 @@
+html {
+  background-color: #f2efe3;
+  margin: 60px;
+}
+
+#abt_me {
+  float: left;
+  font-size: 60px;
+  width: 550px;
+  text-align: justify;
+}
+
+#intro {
+  font-size: 20px;
+}
+#abt_pic {
+  display: flex; 
+  justify-content: flex-end;
+  margin: 0px 0px 70px 301px;
+}
