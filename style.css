@@ -6,16 +6,30 @@ html {
   overflow: auto;
 }
 
+@font-face {
+  font-family: GloriaHallelujah;
+  src: url(GloriaHallelujah-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(RobotoMono-VariableFont_wght.ttf);
+}
+
 #top_div {
   margin: 0px 0px 30px 0px;
   height: 50px;
 }
 
-#img {
+img:hover {
+  box-shadow: 10px 10px;
+}
+
+#logo {
   position:absolute;
   left: 0px;
   width: 100px; 
-  height: 60px;
+  height: 100px;
 }
 
 #about {
@@ -31,10 +45,12 @@ html {
 }
 
 #title {
+  font-family: GloriaHallelujah, "Times New Roman";
   float: left;
-  font-size: 60px;
+  font-size: 4em;
 }
 #app {
+  font-family: RobotoMono;
   font-size: 20px;
 }
 #pic_me {
@@ -47,15 +63,13 @@ a {
   text-decoration: none;  
 }
 
-
-
 #know {
+  font-family: GloriaHallelujah, "Times New Roman";
   font-size: 45px;
   text-align: center;
 }
 
 .know_more {
-  
   width: 350px;
   height: 350px;
 }
@@ -73,44 +87,46 @@ a {
   margin: auto; 
 } 
 
-#anchor1 {
-  margin: 0px 170px 0px 160px;
-}
-
-#anchor2 {
-  margin: 0px 200px 0px 210px;
-}
-
-#anchor3 {
-  margin: 0px 0px 0px 200px;
+#anchors {
+  display: flex; 
+  text-align: left;
+  justify-content: space-around;
 }
 
 #banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 1210px;
   height: 300px;
 }
 
+
 #end1 {
-  font-size: 60px;
+  font-family: GloriaHallelujah;
+  font-size: 50px;
 }
 
 #end2 {
+  font-family: RobotoMono;
   margin: 0px 70px 0px 70px;
-  width: 200px;
+  width: 260px;
   display: inline-block;
   word-break: break-word;
 }
 
 #end3 {
-  margin: 0px 80px 0px 10px;
-  width: 120px;
+  font-family: RobotoMono;
+  margin: 0px 70px 0px 10px;
+  width: 150px;
   display: inline-block;
   word-break: break-word;
 }
 
 #end4 {
+  font-family: RobotoMono;
   margin: 0px 0px 0px 50px;
-  width: 120px;
+  width: 140px;
   display: inline-block;
   word-break: break-word;
 }
