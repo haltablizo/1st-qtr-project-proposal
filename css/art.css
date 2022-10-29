@@ -1,5 +1,37 @@
 html {
   background-color: #f2efe3;
-  margin: 60px;
+  margin: 30px;
 }
 
+@font-face {
+  font-family: GloriaHallelujah;
+  src: url(../fonts/GloriaHallelujah-Regular.ttf);
+}
+
+#instruct {
+  font-size: 20px;
+  font-family: GloriaHallelujah, "Times New Roman";
+}
+
+#logo {
+  width: 70px; 
+  height: 70px;
+}
+
+#art {
+  text-align: center; 
+  font-family: GloriaHallelujah;
+  font-size: 40px;
+  z-index: 1;
+}
+
+#recent {
+  margin: -50px 0 0 0; 
+  display: flex; 
+  justify-content: space-around;
+  z-index: 2; 
+}
+
+a {
+  text-decoration: none;
+}

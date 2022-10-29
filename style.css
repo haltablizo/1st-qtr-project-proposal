@@ -8,21 +8,17 @@ html {
 
 @font-face {
   font-family: GloriaHallelujah;
-  src: url(GloriaHallelujah-Regular.ttf);
+  src: url(fonts/GloriaHallelujah-Regular.ttf);
 }
 
 @font-face {
   font-family: RobotoMono;
-  src: url(RobotoMono-VariableFont_wght.ttf);
+  src: url(fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
 #top_div {
   margin: 0px 0px 30px 0px;
   height: 50px;
-}
-
-img:hover {
-  box-shadow: 10px 10px;
 }
 
 #logo {
@@ -33,6 +29,8 @@ img:hover {
 }
 
 #about {
+  font: 20px;
+  font-family: RobotoMono, Helvetica, "Times New Roman";
   border:1px solid black;
   position:absolute;
   right: 10px;
@@ -101,6 +99,10 @@ a {
   height: 300px;
 }
 
+#ends {
+  display: flex;
+  justify-content: space-between;
+}
 
 #end1 {
   font-family: GloriaHallelujah;
@@ -109,24 +111,19 @@ a {
 
 #end2 {
   font-family: RobotoMono;
-  margin: 0px 70px 0px 70px;
-  width: 260px;
   display: inline-block;
-  word-break: break-word;
+  width: 260px;
 }
 
 #end3 {
   font-family: RobotoMono;
-  margin: 0px 70px 0px 10px;
-  width: 150px;
   display: inline-block;
-  word-break: break-word;
+  width: 150px;
 }
 
 #end4 {
+  margin: 0px 100px 0px 0px;
   font-family: RobotoMono;
-  margin: 0px 0px 0px 50px;
-  width: 140px;
   display: inline-block;
-  word-break: break-word;
+  width: 140px;
 }

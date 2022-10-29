@@ -1,20 +1,48 @@
-html {
+body {
+  padding: 0;
+  margin: 20px;
   background-color: #f2efe3;
-  margin: 60px;
+}
+
+@font-face {
+  font-family: GloriaHallelujah;
+  src: url(../fonts/GloriaHallelujah-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+#logo {
+  width: 70px; 
+  height: 70px;
+}
+
+#instruct {
+  font-size: 30px;
+  font-family: GloriaHallelujah, "Times New Roman";
 }
 
 #abt_me {
-  float: left;
+  float: right;
   font-size: 60px;
-  width: 45%;
+  width: 55%;
+  right: 100px;
   text-align: justify;
 }
 
-#intro {
-  font-size: 20px;
+#abt {
+  font-size: 40px;
+  font-family: GloriaHallelujah, "Times New Roman";
 }
-#abt_pic {
-  display: flex; 
-  justify-content: flex-end;
-  margin: 0px 0px 70px 301px;
+
+a {
+  text-decoration: none;
+}
+
+#intro {
+  font-family: RobotoMono, Helvetica;
+  width: 630px;
+  font-size: 20px;
 }
