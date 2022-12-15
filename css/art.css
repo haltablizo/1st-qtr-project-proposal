@@ -8,6 +8,11 @@ html {
   src: url(../fonts/GloriaHallelujah-Regular.ttf);
 }
 
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
 #instruct {
   font-size: 20px;
   font-family: GloriaHallelujah, "Times New Roman";
@@ -18,20 +23,38 @@ html {
   height: 70px;
 }
 
-#art {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  width: 190px;
+}
+
+nav {
+  font-size: 20px;
+}
+
+header {
+  display: block;
   text-align: center; 
   font-family: GloriaHallelujah;
   font-size: 40px;
   z-index: 1;
 }
 
-#recent {
+article {
   margin: -50px 0 0 0; 
   display: flex; 
   justify-content: space-around;
   z-index: 2; 
 }
 
-a {
+footer, a{
   text-decoration: none;
+  font-family: RobotoMono;
 }

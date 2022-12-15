@@ -32,7 +32,8 @@ body {
   text-align: justify;
 }
 
-#abt {
+
+header {
   font-size: 40px;
   font-family: GloriaHallelujah, "Times New Roman";
 }
@@ -41,8 +42,32 @@ a {
   text-decoration: none;
 }
 
-#intro {
+#intro, nav {
   font-family: RobotoMono, Helvetica;
   width: 630px;
   font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+}
+
+li {
+  float: left;
+  width: 200px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sprite {
+  background: url('../images/sprites.png') no-repeat -411px -28px;
+	width: 55px;
+	height: 54px;
 }

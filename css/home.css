@@ -8,12 +8,12 @@ html {
 
 @font-face {
   font-family: GloriaHallelujah;
-  src: url(fonts/GloriaHallelujah-Regular.ttf);
+  src: url(/fonts/GloriaHallelujah-Regular.ttf);
 }
 
 @font-face {
   font-family: RobotoMono;
-  src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+  src: url(/fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
 #top_div {
@@ -72,18 +72,16 @@ a {
   height: 350px;
 }
 
-#right {
-  right: 70px;
-  position: absolute;
-  margin: auto; 
+#div_knowmore {
+  display: flex; 
+  justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
-#center {
-  left: 10px;
-  right: 10px;
-  position: absolute;
-  margin: auto; 
-} 
+#div_knowmore img {
+  width: 250px;
+  height: 250px;
+}
 
 #anchors {
   display: flex; 
@@ -109,21 +107,5 @@ a {
   font-size: 50px;
 }
 
-#end2 {
-  font-family: RobotoMono;
-  display: inline-block;
-  width: 260px;
-}
 
-#end3 {
-  font-family: RobotoMono;
-  display: inline-block;
-  width: 150px;
-}
 
-#end4 {
-  margin: 0px 100px 0px 0px;
-  font-family: RobotoMono;
-  display: inline-block;
-  width: 140px;
-}
