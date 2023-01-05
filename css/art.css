@@ -13,16 +13,6 @@ html {
   src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
-#instruct {
-  font-size: 20px;
-  font-family: GloriaHallelujah, "Times New Roman";
-}
-
-#logo {
-  width: 70px; 
-  height: 70px;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -57,4 +47,21 @@ article {
 footer, a{
   text-decoration: none;
   font-family: RobotoMono;
+}
+
+#twitter {
+  background: url('../images/sprites.png') no-repeat -411px -28px;
+	width: 55px;
+	height: 54px;
+}
+
+#yt {
+  background: url('../images/sprites.png') no-repeat -350px -28px;
+	width: 55px;
+	height: 54px;  
+}
+#pin {
+  background: url('../images/sprites.png') no-repeat -229px -28px;
+	width: 55px;
+	height: 54px;  
 }

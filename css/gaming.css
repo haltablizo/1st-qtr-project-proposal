@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 20px;
+  background-color: #f2efe3;
+}
+
+@font-face {
+  font-family: GloriaHallelujah;
+  src: url(../fonts/GloriaHallelujah-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+#intro, nav {
+  font-family: RobotoMono, Helvetica;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+}
+
+li {
+  float: left;
+  width: 200px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header {
+  font-size: 40px;
+  font-family: GloriaHallelujah, "Times New Roman";
+}
+
+#twitter {
+  background: url('../images/sprites.png') no-repeat -411px -28px;
+	width: 55px;
+	height: 54px;
+}
+
+#yt {
+  background: url('../images/sprites.png') no-repeat -350px -28px;
+	width: 55px;
+	height: 54px;  
+}
+#pin {
+  background: url('../images/sprites.png') no-repeat -229px -28px;
+	width: 55px;
+	height: 54px;  
+}
+
+footer a {
+  display: inline-block;
+}

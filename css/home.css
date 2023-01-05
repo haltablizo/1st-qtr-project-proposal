@@ -46,6 +46,7 @@ html {
   font-family: GloriaHallelujah, "Times New Roman";
   float: left;
   font-size: 4em;
+  
 }
 #app {
   font-family: RobotoMono;
@@ -67,7 +68,7 @@ a {
   text-align: center;
 }
 
-.know_more {
+.cover {
   width: 350px;
   height: 350px;
 }
@@ -79,8 +80,8 @@ a {
 }
 
 #div_knowmore img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 
 #anchors {
@@ -97,15 +98,57 @@ a {
   height: 300px;
 }
 
-#ends {
-  display: flex;
-  justify-content: space-between;
-}
-
 #end1 {
   font-family: GloriaHallelujah;
   font-size: 50px;
 }
 
+#mail {
+  background: url('../a.png') no-repeat 0px 0px;
+	width: 50px;
+	height: 50px;
+}
 
+#fb {
+  background: url('../a.png') no-repeat -50px 0px;
+	width: 50px;
+	height: 50px; 
+}
 
+#twt {
+  background: url('../a.png') no-repeat -100px 0px;
+	width: 50px;
+	height: 50px;
+}
+
+#ig {
+  background: url('../a.png') no-repeat -150px 0px;
+	width: 50px;
+	height: 50px;
+}
+
+#sprites {
+  display: inline-block;
+}
+
+#contact {
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
+#sep_line {
+  border-left: 1px solid black;
+  height: 200px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#sources {
+  display: inline-block;
+}
+
+#ref_header {
+  font-size: 45px;
+  font-family: GloriaHallelujah, "Times New Roman";
+  margin-left: 30px;
+}

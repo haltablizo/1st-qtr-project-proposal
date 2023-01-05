@@ -14,16 +14,6 @@ body {
   src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
-#logo {
-  width: 70px; 
-  height: 70px;
-}
-
-#instruct {
-  font-size: 30px;
-  font-family: GloriaHallelujah, "Times New Roman";
-}
-
 #abt_me {
   float: right;
   font-size: 60px;
@@ -31,7 +21,6 @@ body {
   right: 100px;
   text-align: justify;
 }
-
 
 header {
   font-size: 40px;
@@ -44,7 +33,6 @@ a {
 
 #intro, nav {
   font-family: RobotoMono, Helvetica;
-  width: 630px;
   font-size: 20px;
 }
 
@@ -70,4 +58,21 @@ nav {
   background: url('../images/sprites.png') no-repeat -411px -28px;
 	width: 55px;
 	height: 54px;
+}
+
+#twitter {
+  background: url('../images/sprites.png') no-repeat -411px -28px;
+	width: 55px;
+	height: 54px;
+}
+
+#yt {
+  background: url('../images/sprites.png') no-repeat -350px -28px;
+	width: 55px;
+	height: 54px;  
+}
+#pin {
+  background: url('../images/sprites.png') no-repeat -229px -28px;
+	width: 55px;
+	height: 54px;  
 }
