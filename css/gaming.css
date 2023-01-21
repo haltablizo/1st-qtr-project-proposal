@@ -1,7 +1,6 @@
-body {
-  padding: 0;
-  margin: 20px;
+html {
   background-color: #f2efe3;
+  margin: 30px;
 }
 
 @font-face {
@@ -14,51 +13,120 @@ body {
   src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
-#intro, nav {
-  font-family: RobotoMono, Helvetica;
-  font-size: 20px;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  display: inline;
+  background-color: #e8e6d9;
 }
 
 li {
   float: left;
-  width: 200px;
+}
+
+li a, .artdrop {
+  display: inline-block;
+  color: #272c34;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover, .art:hover .artdrop {
+  background-color: #d6d2c2;
+}
+
+li.art {
+  display: inline-block;
+}
+
+li img {
+  height: 45px;
+}
+
+#logo {
+  width: 70px;
+}
+
+.art-sub {
+  display: none;
+  position: absolute;
+  background-color: #f6eeee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.art-sub a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.art-sub a:hover {
+  background-color: #e9dddd;
+}
+
+.art:hover .art-sub {
+  display: block;
+}
+
+.sprite {
+  float: right !important;
+}
+
+#fb {
+  background: url(../images/spritesheet.png) no-repeat 0 0;
+  width: 50px;
+  height: 50px;
+}
+
+#twt {
+  background: url(../images/spritesheet.png) no-repeat -50px 0;
+  width: 50px;
+  height: 50px;
+}
+
+#ig {
+  background: url(../images/spritesheet.png) no-repeat -100px 0;
+  width: 50px;
+  height: 50px;
+}
+
+#fb_l, #twt_l, #ig_l {
+  padding: 0 0 !Important;
 }
 
 nav {
-  display: flex;
-  justify-content: space-evenly;
+  font-size: 18px;
+  margin: -30px;
+}
+
+footer, a {
+  text-decoration: none;
+  font-family: RobotoMono;
 }
 
 header {
   font-size: 40px;
+  text-align: center;
   font-family: GloriaHallelujah, "Times New Roman";
 }
 
-#twitter {
-  background: url('../images/sprites.png') no-repeat -411px -28px;
-	width: 55px;
-	height: 54px;
+p {
+  font-family: RobotoMono, Helvetica;
 }
 
-#yt {
-  background: url('../images/sprites.png') no-repeat -350px -28px;
-	width: 55px;
-	height: 54px;  
-}
-#pin {
-  background: url('../images/sprites.png') no-repeat -229px -28px;
-	width: 55px;
-	height: 54px;  
+#stats {
+  text-align: center;
 }
 
-footer a {
-  display: inline-block;
+aside section {
+  display: block;
+  text-align: center;
+  font-family: RobotoMono, Helvetica;
+  
 }

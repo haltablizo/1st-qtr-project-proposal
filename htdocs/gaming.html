@@ -12,52 +12,68 @@
   </head>
 
   <body>
-    <br>
     <nav>
       <ul>
+        <li id='logo'><img src='..\images\logo.png'></li>
         <li><a href="\index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="art.html">Art</a></li>
+        <li class='art'>
+          <a href="art.html" class="artdrop">Art ▾ </a>
+          <div class="art-sub">
+            <a href="art_subpages/sketches.html">Sketches</a>
+            <a href="art_subpages/pieces.html">Pieces</a>
+          </div>
+        </li>
         <li><a href="gaming.html">Gaming</a></li>
         <li><a href="music.html">Music</a></li>
+        <li class='sprite'>
+          <a href='https://www.facebook.com/hannahangela.tablizo' id='fb_l'><div id='fb'></div></a>          
+        </li>
+        <li class='sprite'>
+          <a href='https://twitter.com/sevenroses_' id='fb_l'><div id='twt'></div></a>
+        </li>
+        <li class='sprite'>
+          <a href='https://www.instagram.com/nanachan.draws/' id='fb_l'><div id='ig'></div></a>
+        </li>
       </ul>
     </nav> 
 
     <br> <br> <br>
     
     <article>
-      
+      <section id='stats'>
+        <header>Stats</header>
+        <p>I do not touch grass</p>
+        <img src='..\images\stats.png'>
+        <br> <br>
+      </section>
+      <hr>
+    </article> 
+    
+    <header>Replays</header>
+    <br> 
+    
+    <aside>
       <section>
-        <header>One of my replays</header>
-        <p>Hachispin is a really great opener lol.</p>
-        <video controls autoplay muted width="683" height="384">
-          <source src="../tetrio-clips/hachispin.mp4" type="video/mp4">
+        Hachispin gaming <br> <br> 
+        <video controls autoplay muted width="650" height="350">
+          <source src="../videos/tetrio-clips/hachispin.mp4" type="video/mp4">
         </video>
       </section> 
       <hr>
       
       <section>
-        <header>Blitz personal best</header>
-        <p></p>
+        TKI (me) vs SDPC <br> <br>
+        <video controls autoplay muted width="650" height="350">
+          <source src="../videos/tetrio-clips/tki.mp4" type="video/mp4">
+        </video>
       </section>
-
-      <section>
-        <header>TKI vs Stickspin</header>
-        <p>clutched this omg</p>
-      </section>
-    </article> 
-    
-    <aside>
-      <header>40 lines personal best</header>
     </aside>
 
     <br>
 
     <footer>
-      <hr>
-      <a href="https://twitter.com/sarcasticsol"><div id='twitter'></div></a>
-      <div id='pin'></div>
-      <div id='yt'></div>
+      <p>© 2023 Life: love & coffee. All Rights Reserved.</p>  
     </footer>
   </body>
 </html>

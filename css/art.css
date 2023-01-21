@@ -67,7 +67,7 @@ li img {
 }
 
 .art-sub a:hover {
-  background-color: #f1f1f1;
+  background-color: #e9dddd;
 }
 
 .art:hover .art-sub {
@@ -79,21 +79,25 @@ li img {
 }
 
 #fb {
-  background: url(../images/n.png) no-repeat 0 0;
+  background: url(../images/spritesheet.png) no-repeat 0 0;
   width: 50px;
   height: 50px;
 }
 
 #twt {
-  background: url(../images/n.png) no-repeat -50px 0;
+  background: url(../images/spritesheet.png) no-repeat -50px 0;
   width: 50px;
   height: 50px;
 }
 
 #ig {
-  background: url(../images/n.png) no-repeat -100px 0;
+  background: url(../images/spritesheet.png) no-repeat -100px 0;
   width: 50px;
   height: 50px;
+}
+
+#fb_l, #twt_l, #ig_l {
+  padding: 0 0 !Important;
 }
 
 nav {
@@ -119,12 +123,12 @@ footer, a {
   justify-content: space-around;
 }
 
-#rendered, #doodles {
+#rendered, #sketches {
   width: 500px; 
   height: 500px;
 }
 
-#rendered:hover, #doodles:hover {
+#rendered:hover, #sketches:hover {
   transition-duration: 0.3s;
   transform:scale(1.05);
 }

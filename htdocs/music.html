@@ -12,34 +12,53 @@
   </head>
 
   <body>
-    <br>
     <nav>
       <ul>
+        <li id='logo'><img src='..\images\logo.png'></li>
         <li><a href="\index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="art.html">Art</a></li>
+        <li class='art'>
+          <a href="art.html" class="artdrop">Art ▾ </a>
+          <div class="art-sub">
+            <a href="art_subpages/sketches.html">Sketches</a>
+            <a href="art_subpages/pieces.html">Pieces</a>
+          </div>
+        </li>
         <li><a href="gaming.html">Gaming</a></li>
         <li><a href="music.html">Music</a></li>
+        <li class='sprite'>
+          <a href='https://www.facebook.com/hannahangela.tablizo' id='fb_l'><div id='fb'></div></a>          
+        </li>
+        <li class='sprite'>
+          <a href='https://twitter.com/sevenroses_' id='fb_l'><div id='twt'></div></a>
+        </li>
+        <li class='sprite'>
+          <a href='https://www.instagram.com/nanachan.draws/' id='fb_l'><div id='ig'></div></a>
+        </li>
       </ul>
     </nav> 
 
-    <br> 
-    
+    <br> <br> <br>
     <article>
-      
-      <section class="vid">
-        <header>Current lss</header>
-        <video controls autoplay loop muted width="853" height="480">
-          <source src="../C.L. morning.mp4" type="video/mp4">
-        </video>
-        
-        <p>Charlotte Lawrence - Morning (Official Music Video). (2022, September 23). youtube.com. https://www.youtube.com/watch?v=6AaEFjpRAW8</p>
-
+     <section class="playlist">
+       <header>Playlist</header>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2eo0wndK5LHEGiZNKuY6Ro?utm_source=generator&theme=0" width="120%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </section>  
+
+      <section class='collage'>
+        <img id='collage' src='..\images\collage.jpg'>
+        <header>Artist Collage</header>
+      </section>
     </article> 
 
-    <aside class="playlist">
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2eo0wndK5LHEGiZNKuY6Ro?utm_source=generator&theme=0" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <aside class="vid">
+      <br> 
+      <header>Current Lss</header>
+      <video controls autoplay loop muted width="853" height="480">
+          <source src="..\videos\C.L. morning.mp4" type="video/mp4">
+        </video>
+        
+        <p>Charlotte Lawrence - Morning (Official Music Video). (2022, September 23). youtube.com. https://www.youtube.com/watch?v=6AaEFjpRAW8</p
     </aside>
     <br>
 
