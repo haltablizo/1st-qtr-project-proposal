@@ -39,22 +39,19 @@ nav {
 
 header {
   font-size: 40px;
+  text-align: center;
   font-family: GloriaHallelujah, "Times New Roman";
 }
 
-#twitter {
-  background: url('../images/sprites.png') no-repeat -411px -28px;
-	width: 55px;
-	height: 54px;
+article {
+  display: inline-block;
 }
 
-#yt {
-  background: url('../images/sprites.png') no-repeat -350px -28px;
-	width: 55px;
-	height: 54px;  
+section p {
+  font-size: 12px;
 }
-#pin {
-  background: url('../images/sprites.png') no-repeat -229px -28px;
-	width: 55px;
-	height: 54px;  
+
+.playlist {
+  display: inline-block;
+  margin-right: -100px;
 }

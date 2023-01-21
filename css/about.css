@@ -14,6 +14,33 @@ body {
   src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: RobotoMono;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 #abt_me {
   float: right;
   font-size: 60px;
@@ -31,48 +58,11 @@ a {
   text-decoration: none;
 }
 
+#intro {
+  width: 700px;
+}
+
 #intro, nav {
   font-family: RobotoMono, Helvetica;
   font-size: 20px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: inline;
-}
-
-li {
-  float: left;
-  width: 200px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.sprite {
-  background: url('../images/sprites.png') no-repeat -411px -28px;
-	width: 55px;
-	height: 54px;
-}
-
-#twitter {
-  background: url('../images/sprites.png') no-repeat -411px -28px;
-	width: 55px;
-	height: 54px;
-}
-
-#yt {
-  background: url('../images/sprites.png') no-repeat -350px -28px;
-	width: 55px;
-	height: 54px;  
-}
-#pin {
-  background: url('../images/sprites.png') no-repeat -229px -28px;
-	width: 55px;
-	height: 54px;  
 }

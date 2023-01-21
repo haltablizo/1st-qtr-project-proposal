@@ -40,6 +40,8 @@ html {
 
 #about:hover {
   background: white;
+  transform: scale(1.1);
+  transition-duration: all 1s;
 }
 
 #title {
@@ -68,11 +70,6 @@ a {
   text-align: center;
 }
 
-.cover {
-  width: 350px;
-  height: 350px;
-}
-
 #div_knowmore {
   display: flex; 
   justify-content: space-around;
@@ -80,75 +77,6 @@ a {
 }
 
 #div_knowmore img {
-  width: 300px;
-  height: 300px;
-}
-
-#anchors {
-  display: flex; 
-  text-align: left;
-  justify-content: space-around;
-}
-
-#banner {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1210px;
-  height: 300px;
-}
-
-#end1 {
-  font-family: GloriaHallelujah;
-  font-size: 50px;
-}
-
-#mail {
-  background: url('../a.png') no-repeat 0px 0px;
-	width: 50px;
-	height: 50px;
-}
-
-#fb {
-  background: url('../a.png') no-repeat -50px 0px;
-	width: 50px;
-	height: 50px; 
-}
-
-#twt {
-  background: url('../a.png') no-repeat -100px 0px;
-	width: 50px;
-	height: 50px;
-}
-
-#ig {
-  background: url('../a.png') no-repeat -150px 0px;
-	width: 50px;
-	height: 50px;
-}
-
-#sprites {
-  display: inline-block;
-}
-
-#contact {
-  display: inline-flex;
-  flex-wrap: nowrap;
-}
-
-#sep_line {
-  border-left: 1px solid black;
-  height: 200px;
-  display: inline-block;
-  margin-left: 30px;
-}
-
-#sources {
-  display: inline-block;
-}
-
-#ref_header {
-  font-size: 45px;
-  font-family: GloriaHallelujah, "Times New Roman";
-  margin-left: 30px;
+  width: 350px;
+  height: 350px;
 }
